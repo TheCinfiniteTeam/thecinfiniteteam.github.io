@@ -1,0 +1,45 @@
+#bar_logo{
+    width: 32px;
+    height: 32px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: lightskyblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cambria Math";
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+a:link{
+    text-decoration: none;
+}
+li a:visited {
+    color: white;
+    text-decoration: none;
+    font-family: "Corbel Light";
+}
+#index_body{
+    background-color: aliceblue;
+}
+li:last-child{
+    border-bottom: none;    /*去掉最后一个格子的重复*/
+}
+#bar_logo:hover {
+    background-color: aliceblue;
+}
