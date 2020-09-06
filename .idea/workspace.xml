@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae138e7f-0176-4b29-9e19-431a7d9f6538" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download_soft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
