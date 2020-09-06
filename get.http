@@ -1,0 +1,2 @@
+#GET https://api.github.com/repos/[%E7%94%A8%E6%88%B7%E5%90%8D]/[%E4%BB%93%E5%BA%93]/issue
+GET https://api.github.com/repos/TheCinfiniteTeam/VeryGoodItems/issue
