@@ -1,10 +1,10 @@
 {
   "homepage": "https://thecinfiniteteam.github.io/download_mcmod.html",
-  "<MC版本>": {
-    "1.0-SNAPSHOT": "The Version For Bate Has Very Bug(bushi"
+  "1.12.2": {
+    "1.0.0": "The Version For Bate Has Very Bug(bushi"
   },
   "promos": {
-    "1.12.2-latest": "1.0-SNAPSHOT",
-    "1.12.2-recommended": "1.0-SNAPSHOT"
+    "1.12.2-latest": "1.0.0",
+    "1.12.2-recommended": "1.0.0"
   }
 }
