@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae138e7f-0176-4b29-9e19-431a7d9f6538" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/getGithubStar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mods/verygooditems/update.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="HTTP Request" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
