@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>将图片批量转换为Base64</title>
+		<link rel="stylesheet" href="../css/root.css">
+		<script src="../js/root.js"></script>
+		<link rel="icon" href="../img/infinite.png">
+		<link rel="shortcut icon" href="../img/infinite.png">
+		<meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript">
+			function upload(){$("#img-frame").html("");
+			for(var e=document.getElementById("upload-frame").files,t=0;t<e.length;t++)showImg(e[t]);$("#upload-frame").val("")}function showImg(e){var t=new FileReader;t.readAsDataURL(e),t.onload=function(e){var t=e.target.result,a="";
+			if($("#setting-showimg").is(":checked"))var a='<td><img src="'+t+'"/></td>';
+			if($("#setting-head").is(":checked")){var r=t.indexOf("4")+2;t=t.substring(r,t.length-r)}var d="<td>"+t+"</td>";$("#img-frame").append("<tr>"+a+d+"</tr><tr rowspan=\"2\"><td>(｡◕‿◕｡)</td></tr>")}}
+			</script>
+			<style type="text/css">table td{vertical-align:top}</style>
+	</head>
+	<body>
+		<br/>
+		<form action="javascript:void(0);">选择图片：<input type="file"id="upload-frame"onchange="upload()"multiple="multiple"/>
+		</form>
+		<br/>
+		<hr/>
+		<br/>
+		<div>
+			<input id="setting-showimg"type="checkbox"value="1"/>
+			<label for="setting-showimg">显示图片</label>
+			<input id="setting-head"type="checkbox"value="1"/>
+			<label for="setting-head">隐藏base64头部</label>
+			</div>
+			<br/>
+			<hr/>
+			<br/>
+			<table id="img-frame"border="1"></table>
+			</body>
+</html>
