@@ -1,6 +1,6 @@
 # 无限空间工作室官方网站
 
-[en_us](#)
+[en_us](README.md)
 
 [zh_cn](README_ZC.md)
 
